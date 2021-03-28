@@ -14,7 +14,7 @@ alert('Welcome '+ name1);
 //    console.log('anything')
 //}
 
-var answer = prompt ('Did you take the covid-19 vaccine?','yes , no');
+var answer = prompt('Did you take the covid-19 vaccine?','yes , no');
 while(answer !== 'yes' && answer !== "no"){
     asnwer = prompt ('please enter yes or no');
 }
@@ -25,7 +25,7 @@ var image = '';
 
 for(var i = 1 ; i <=answerNum; i++ ){
     if(answer === 'yes'){
-        image = image + '<img src="img src="covid.jpg"/>';
+        image = image + '<img src="https://www.tamusa.edu/images/university-communication/avoid-spreading.png"/>';
         console.log(image)
     }else if(answer === 'no'){
         image = image + '<img src="https://c.files.bbci.co.uk/3A97/production/_116299941_oxford_coronavirus_vaccine_640_3x-nc.png" height="500px" width="500px"/>';
