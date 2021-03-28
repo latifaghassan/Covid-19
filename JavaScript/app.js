@@ -1,12 +1,12 @@
 var name1 = prompt('What is your name?');
 alert('Welcome '+ name1);
 
-var Answer= prompt('Did you take the Covid-19 vaccine?','YES,NO');
+var answer= prompt('Did you take the Covid-19 vaccine?','YES,NO');
 
-if(Answer ==='yes'){
+if(answer ==='yes'){
 document.write('<img src="covid.jpg">');
 }
-else if(Answer === 'no') {
+else if(answer === 'no') {
 document.write('<img src="https://c.files.bbci.co.uk/3A97/production/_116299941_oxford_coronavirus_vaccine_640_3x-nc.png" height="500px" width="500px">');
 
 }
@@ -15,12 +15,13 @@ else{
 }
 
 
-var age = prompt('What is your age?');
+var age = prompt('What is your age?');{
 
-if (!age >= 40 && age > 100){
-    alert('You are more likely to be infected. You should be careful!')
-}else if (age <= 18 && age < 40){
-    alert ('you still young, but still take care of your health.')
+if (age >= 40 ){
+    alert('You are more likely to be infected. You should be careful!');
+}else if (age <= 18){
+    alert ('you still young, but still take care of your health.');
+   }
 }
 
 
@@ -28,9 +29,8 @@ var answerNum = prompt('How many safety tips you want to know?');
 
 var image = '';
 
-for(var i = 1 ; i <=answerNum; i++ ){
+for(var i = 0 ; i <answerNum; i++ ){
     if(answer === 'yes'){
-    }else if(answer === 'no'){
         image = image + '<img src="https://www.tamusa.edu/images/university-communication/avoid-spreading.png" height="500px" width="500px"/>';
         console.log(image);
     }else if(answer === 'no'){
