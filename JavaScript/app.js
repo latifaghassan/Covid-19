@@ -16,3 +16,17 @@ else{
 
 
 
+var imageNum = prompt('How many safety tips you want to know?');
+
+var image = '';
+
+for(var i = 1 ; i <=imageNum; i++){
+    if(Answer === 'yes'){
+        image = image + '<img src="img src="covid.jpg"/>';
+    }else if(Answer === 'no'){
+        image = image + '<img src="https://c.files.bbci.co.uk/3A97/production/_116299941_oxford_coronavirus_vaccine_640_3x-nc.png" height="500px" width="500px"/>';
+
+    }   
+}
+document.write(image);
+
